@@ -1,0 +1,6 @@
+22:18:59: can't open file 'nalg.jpg' (error 2: Не удается найти указанный файл.)
+22:18:59: Failed to load image from file "nalg.jpg".
+22:18:59: can't open file 'nalg.jpg' (error 2: Не удается найти указанный файл.)
+22:18:59: Failed to load image from file "nalg.jpg".
+22:18:59: can't open file 'nalg.jpg' (error 2: Не удается найти указанный файл.)
+22:18:59: Failed to load image from file "nalg.jpg".

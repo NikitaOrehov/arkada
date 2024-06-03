@@ -1,0 +1,2 @@
+C:\NMG\mingw64\bin\ar.exe qc libMyPanel.a CMakeFiles/MyPanel.dir/patron.cpp.obj CMakeFiles/MyPanel.dir/ship.cpp.obj CMakeFiles/MyPanel.dir/Mypanel.cpp.obj
+C:\NMG\mingw64\bin\ranlib.exe libMyPanel.a

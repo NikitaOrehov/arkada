@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/User/Project/arkada/build",
+  "command": "C:\\NMG\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles\\game.dir\\main.cpp.obj -c C:\\Users\\User\\Project\\arkada\\main.cpp",
+  "file": "C:/Users/User/Project/arkada/main.cpp",
+  "output": "CMakeFiles/game.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Project/arkada/build",
+  "command": "C:\\NMG\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles\\game.dir\\game.cpp.obj -c C:\\Users\\User\\Project\\arkada\\game.cpp",
+  "file": "C:/Users/User/Project/arkada/game.cpp",
+  "output": "CMakeFiles/game.dir/game.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Project/arkada/build",
+  "command": "C:\\NMG\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles\\game.dir\\Mypanel.cpp.obj -c C:\\Users\\User\\Project\\arkada\\Mypanel.cpp",
+  "file": "C:/Users/User/Project/arkada/Mypanel.cpp",
+  "output": "CMakeFiles/game.dir/Mypanel.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Project/arkada/build",
+  "command": "C:\\NMG\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles\\game.dir\\patron.cpp.obj -c C:\\Users\\User\\Project\\arkada\\patron.cpp",
+  "file": "C:/Users/User/Project/arkada/patron.cpp",
+  "output": "CMakeFiles/game.dir/patron.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Project/arkada/build",
+  "command": "C:\\NMG\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles\\game.dir\\ship.cpp.obj -c C:\\Users\\User\\Project\\arkada\\ship.cpp",
+  "file": "C:/Users/User/Project/arkada/ship.cpp",
+  "output": "CMakeFiles/game.dir/ship.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Project/arkada/build",
+  "command": "C:\\NMG\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles\\game.dir\\ship1.cpp.obj -c C:\\Users\\User\\Project\\arkada\\ship1.cpp",
+  "file": "C:/Users/User/Project/arkada/ship1.cpp",
+  "output": "CMakeFiles/game.dir/ship1.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Project/arkada/build",
+  "command": "C:\\NMG\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles\\game.dir\\ship2.cpp.obj -c C:\\Users\\User\\Project\\arkada\\ship2.cpp",
+  "file": "C:/Users/User/Project/arkada/ship2.cpp",
+  "output": "CMakeFiles/game.dir/ship2.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Project/arkada/build",
+  "command": "C:\\NMG\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles\\game.dir\\ship3.cpp.obj -c C:\\Users\\User\\Project\\arkada\\ship3.cpp",
+  "file": "C:/Users/User/Project/arkada/ship3.cpp",
+  "output": "CMakeFiles/game.dir/ship3.cpp.obj"
+}
+]
