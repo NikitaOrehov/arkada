@@ -98,20 +98,20 @@ CMakeFiles/game.dir/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/game.cpp.s"
 	C:\NMG\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Project\arkada\game.cpp -o CMakeFiles\game.dir\game.cpp.s
 
-CMakeFiles/game.dir/Mypanel.cpp.obj: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/Mypanel.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
-CMakeFiles/game.dir/Mypanel.cpp.obj: C:/Users/User/Project/arkada/Mypanel.cpp
-CMakeFiles/game.dir/Mypanel.cpp.obj: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Project\arkada\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/Mypanel.cpp.obj"
-	C:\NMG\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/Mypanel.cpp.obj -MF CMakeFiles\game.dir\Mypanel.cpp.obj.d -o CMakeFiles\game.dir\Mypanel.cpp.obj -c C:\Users\User\Project\arkada\Mypanel.cpp
+CMakeFiles/game.dir/Pattern.cpp.obj: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/Pattern.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
+CMakeFiles/game.dir/Pattern.cpp.obj: C:/Users/User/Project/arkada/Pattern.cpp
+CMakeFiles/game.dir/Pattern.cpp.obj: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Project\arkada\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/Pattern.cpp.obj"
+	C:\NMG\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/Pattern.cpp.obj -MF CMakeFiles\game.dir\Pattern.cpp.obj.d -o CMakeFiles\game.dir\Pattern.cpp.obj -c C:\Users\User\Project\arkada\Pattern.cpp
 
-CMakeFiles/game.dir/Mypanel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/Mypanel.cpp.i"
-	C:\NMG\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Project\arkada\Mypanel.cpp > CMakeFiles\game.dir\Mypanel.cpp.i
+CMakeFiles/game.dir/Pattern.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/Pattern.cpp.i"
+	C:\NMG\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Project\arkada\Pattern.cpp > CMakeFiles\game.dir\Pattern.cpp.i
 
-CMakeFiles/game.dir/Mypanel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/Mypanel.cpp.s"
-	C:\NMG\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Project\arkada\Mypanel.cpp -o CMakeFiles\game.dir\Mypanel.cpp.s
+CMakeFiles/game.dir/Pattern.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/Pattern.cpp.s"
+	C:\NMG\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Project\arkada\Pattern.cpp -o CMakeFiles\game.dir\Pattern.cpp.s
 
 CMakeFiles/game.dir/patron.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/patron.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
@@ -192,7 +192,7 @@ CMakeFiles/game.dir/ship3.cpp.s: cmake_force
 game_OBJECTS = \
 "CMakeFiles/game.dir/main.cpp.obj" \
 "CMakeFiles/game.dir/game.cpp.obj" \
-"CMakeFiles/game.dir/Mypanel.cpp.obj" \
+"CMakeFiles/game.dir/Pattern.cpp.obj" \
 "CMakeFiles/game.dir/patron.cpp.obj" \
 "CMakeFiles/game.dir/ship.cpp.obj" \
 "CMakeFiles/game.dir/ship1.cpp.obj" \
@@ -204,7 +204,7 @@ game_EXTERNAL_OBJECTS =
 
 game.exe: CMakeFiles/game.dir/main.cpp.obj
 game.exe: CMakeFiles/game.dir/game.cpp.obj
-game.exe: CMakeFiles/game.dir/Mypanel.cpp.obj
+game.exe: CMakeFiles/game.dir/Pattern.cpp.obj
 game.exe: CMakeFiles/game.dir/patron.cpp.obj
 game.exe: CMakeFiles/game.dir/ship.cpp.obj
 game.exe: CMakeFiles/game.dir/ship1.cpp.obj

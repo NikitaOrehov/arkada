@@ -128,29 +128,29 @@ game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
 
-Mypanel.obj: Mypanel.cpp.obj
-.PHONY : Mypanel.obj
+Pattern.obj: Pattern.cpp.obj
+.PHONY : Pattern.obj
 
 # target to build an object file
-Mypanel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/Mypanel.cpp.obj
-.PHONY : Mypanel.cpp.obj
+Pattern.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/Pattern.cpp.obj
+.PHONY : Pattern.cpp.obj
 
-Mypanel.i: Mypanel.cpp.i
-.PHONY : Mypanel.i
+Pattern.i: Pattern.cpp.i
+.PHONY : Pattern.i
 
 # target to preprocess a source file
-Mypanel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/Mypanel.cpp.i
-.PHONY : Mypanel.cpp.i
+Pattern.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/Pattern.cpp.i
+.PHONY : Pattern.cpp.i
 
-Mypanel.s: Mypanel.cpp.s
-.PHONY : Mypanel.s
+Pattern.s: Pattern.cpp.s
+.PHONY : Pattern.s
 
 # target to generate assembly for a file
-Mypanel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/Mypanel.cpp.s
-.PHONY : Mypanel.cpp.s
+Pattern.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/Pattern.cpp.s
+.PHONY : Pattern.cpp.s
 
 game.obj: game.cpp.obj
 .PHONY : game.obj
@@ -329,9 +329,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... game
-	@echo ... Mypanel.obj
-	@echo ... Mypanel.i
-	@echo ... Mypanel.s
+	@echo ... Pattern.obj
+	@echo ... Pattern.i
+	@echo ... Pattern.s
 	@echo ... game.obj
 	@echo ... game.i
 	@echo ... game.s

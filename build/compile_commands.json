@@ -13,9 +13,9 @@
 },
 {
   "directory": "C:/Users/User/Project/arkada/build",
-  "command": "C:\\NMG\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles\\game.dir\\Mypanel.cpp.obj -c C:\\Users\\User\\Project\\arkada\\Mypanel.cpp",
-  "file": "C:/Users/User/Project/arkada/Mypanel.cpp",
-  "output": "CMakeFiles/game.dir/Mypanel.cpp.obj"
+  "command": "C:\\NMG\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles\\game.dir\\Pattern.cpp.obj -c C:\\Users\\User\\Project\\arkada\\Pattern.cpp",
+  "file": "C:/Users/User/Project/arkada/Pattern.cpp",
+  "output": "CMakeFiles/game.dir/Pattern.cpp.obj"
 },
 {
   "directory": "C:/Users/User/Project/arkada/build",

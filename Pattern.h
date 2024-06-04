@@ -1,16 +1,14 @@
 #pragma once
 #include <wx/wx.h>
 
-class MyPanel{
+class Pattern{
 private:
 protected:
     wxBitmap* image;
     wxPoint point;
 public:
-    MyPanel(){
+    Pattern(){
         point = wxPoint(0, 0);
-        wxInitAllImageHandlers();
-        image = new wxBitmap("C:/Users/User/Project/arkada/6666.jpg", wxBITMAP_TYPE_JPEG);
     }
     virtual void SetPlanel(wxBitmap* p){
         image = p;

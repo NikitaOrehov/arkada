@@ -1,66 +1,17 @@
 #include "game.h"
-// #include <iostream>
+#include <iostream>
 #include <random>
+
 
 game::game() : wxFrame(nullptr, wxID_ANY, "game", wxDefaultPosition, wxSize(1000, 1200)){
     wxInitAllImageHandlers();
-    image1 = wxBitmap("C:/Users/User/Project/arkada/6666.jpg", wxBITMAP_TYPE_JPEG);
-    wxPanel* MainPanel = new wxPanel(this, wxID_ANY, wxDefaultPosition, wxSize(1000, 1100));
-    MainPanel->SetBackgroundColour(wxColor(100, 100, 200));
+    background = wxBitmap("C:/Users/User/Project/arkada/123.jpg", wxBITMAP_TYPE_JPEG);
 
-    wxBoxSizer* MainSizer = new wxBoxSizer(wxVERTICAL);
+    player = new Ship1();
+    player->ChangePosition(480, 700);
 
-    Panel2 = new wxPanel(this, wxID_ANY, wxDefaultPosition, wxSize(1000, 70));//нижн€€ полоса
-    Panel2->SetBackgroundColour(wxColor(100, 200, 100));
-
-    button1 = new wxButton(Panel2, wxID_ANY, _T("start"), wxDefaultPosition, wxSize(100, 50));//старт
-    button2 = new wxButton(Panel2, wxID_ANY, _T("reset"), wxDefaultPosition, wxSize(100, 50));
-    wxButton* left = new wxButton(Panel2, wxID_ANY, _T("left"), wxDefaultPosition, wxSize(100, 50));
-    wxButton* right = new wxButton(Panel2, wxID_ANY, _T("right"), wxDefaultPosition, wxSize(100, 50));
-
-    button2->Disable();
-
-    wxBoxSizer* Sizer2 = new wxBoxSizer(wxHORIZONTAL);//хранит кнопки
-    Sizer2->Add(button1, 0, wxEXPAND | wxALL, 10);
-    Sizer2->Add(button2, 0, wxEXPAND | wxALL, 10);
-    Sizer2->Add(left, 0, wxEXPAND | wxALL, 10);
-    Sizer2->Add(right, 0, wxEXPAND | wxALL, 10);
-
-    Panel2->SetSizer(Sizer2);
-
-    MainSizer->Add(MainPanel, 1, wxEXPAND);
-    MainSizer->Add(Panel2, 0, wxEXPAND);
-
-    this->SetSizerAndFit(MainSizer);
-
-    player = new wxPanel(this, wxID_ANY, wxDefaultPosition, wxSize(30, 30));
-    player->SetBackgroundColour(wxColor(200, 200, 100));
-    player->Move(480, 600);
-
-    Timer.SetOwner(this);
-
-    left->Bind(wxEVT_BUTTON, [this](wxCommandEvent &event){
-        player->Move(player->GetPosition().x - 30, player->GetPosition().y);
-    });
-
-    right->Bind(wxEVT_BUTTON, [this](wxCommandEvent &event){
-        player->Move(player->GetPosition().x + 30, player->GetPosition().y);
-    });
-
-    button1->Bind(wxEVT_BUTTON, [this](wxCommandEvent &event){
-        button1->Disable();
-        button2->Enable();
-        Timer.Start(100);
-    });
-    button2->Bind(wxEVT_BUTTON, [this](wxCommandEvent& event){
-        Timer.Stop();
-        std::cout<<"Stop1 \n";
-        button1->Enable();
-        button2->Disable();
-        RestartGame();
-    });
-
-    Bind(wxEVT_PAINT, &game::OnPaint, this);
+    Timer = new wxTimer(this);
+    Timer->SetOwner(this);
 
     enemy = std::vector<Ship*>(20);
     srand(time(nullptr));
@@ -80,17 +31,18 @@ game::game() : wxFrame(nullptr, wxID_ANY, "game", wxDefaultPosition, wxSize(1000
             enemy[i]->ChangePosition(random, -30);
         }
     }
+
+    Bind(wxEVT_PAINT, game::OnPaint, this);
+    Bind(wxEVT_KEY_DOWN, game::OnKeyDown, this);
 }
 
 void game::start(){
     this->Bind(wxEVT_TIMER, [this](wxTimerEvent){
-        std::cout<<"777\n";
         if (count % 20 == 0){
             p = new Patron();
-            p->ChangePosition(player->GetPosition().x + 12, player->GetPosition().y);
+            p->ChangePosition(player->GetX() + 12, player->GetY());
             patrons.push_back(p);
         }
-        std::cout<<"iii\n";
         if (count % 350 == 0 && size < 20){
             size += 1;
         }
@@ -105,26 +57,19 @@ void game::start(){
                 else{
                     enemy[i]->Move(0, 3);
                 }
-                if (enemy[i]->GetY() + 2 >= 700){
-                    Timer.Stop();
-                    button1->Enable();
-                    button2->Disable();
+                if (enemy[i]->GetY() + 2 >= 670){
+                    Timer->Stop();
                     RestartGame();
-                    std::cout<<"Stop2 \n";
                 }
             }
             for (int i = 0; i < patrons.size(); i++){
-                std::cout<<"000\n";
                 for (int j = 0; j < size; j++){
-                    std::cout<<"-1-1-1\n";
                     status = check(patrons[i], enemy[j]);
-                    std::cout<<"111\n";
                     if (status == 1){
                         if (i == (patrons.size() - 1)){
                             patrons[i]->ChangePosition(-30, -30);
                             patrons.pop_back();
-                            random = 60 * (rand() % 16);
-                            enemy[j]->ChangePosition(random, -30);
+                            enemy[j]->Reset();
                             break;
                         }
                         patrons[i]->ChangePosition(-30, -30);
@@ -132,8 +77,7 @@ void game::start(){
                         patrons[patrons.size() - 1] = patrons[i];
                         patrons[i] = p;
                         patrons.pop_back();
-                        random = 60 * (rand() % 16);
-                        enemy[j]->ChangePosition(random, -30);
+                        enemy[j]->Reset();
                     }
                     else if (status == -1){
                         if (i == (patrons.size() - 1)){
@@ -162,16 +106,29 @@ void game::start(){
         }
         count += 1;
         Refresh();
-        std::cout<<"999\n";
     });
 }
 
 void game::OnPaint(wxPaintEvent& event){
     wxPaintDC dc(this);
-    dc.DrawBitmap(image1, wxPoint(0, 0));
+    dc.DrawBitmap(background, wxPoint(0, 0));
+    dc.DrawBitmap(*(player->GetBitmap()), player->GetPoint());
     for (int i = 0; i < size; i++){
-        std::cout<<"\n\n\n\n1\n";
         dc.DrawBitmap(*enemy[i]->GetBitmap(), enemy[i]->GetPoint());
+    }
+    for (int i = 0; i < patrons.size(); i++){
+        dc.DrawBitmap(*patrons[i]->GetBitmap(), patrons[i]->GetPoint());
+    }
+}
+
+void game::OnKeyDown(wxKeyEvent& event){
+    int key = event.GetKeyCode();
+    switch(key){
+        case 65: player->Move(-30, 0); break;
+        case 68: player->Move(30, 0); break;
+        case WXK_SPACE: Timer->Start(150); break;
+        case WXK_ESCAPE: Timer->Stop(); break;
+        default: event.Skip(); break;
     }
 }
 

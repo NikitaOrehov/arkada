@@ -677,4 +677,4 @@ CMakeFiles/game.dir/patron.cpp.obj: \
  C:/Users/User/Project/wxWidgets/include/wx/msw/filedlg.h \
  C:/Users/User/Project/wxWidgets/include/wx/mdi.h \
  C:/Users/User/Project/wxWidgets/include/wx/msw/mdi.h \
- C:\Users\User\Project\arkada\MyPanel.h
+ C:\Users\User\Project\arkada\Pattern.h

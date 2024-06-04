@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/User/Project/arkada/Mypanel.cpp" "CMakeFiles/game.dir/Mypanel.cpp.obj" "gcc" "CMakeFiles/game.dir/Mypanel.cpp.obj.d"
+  "C:/Users/User/Project/arkada/Pattern.cpp" "CMakeFiles/game.dir/Pattern.cpp.obj" "gcc" "CMakeFiles/game.dir/Pattern.cpp.obj.d"
   "C:/Users/User/Project/arkada/game.cpp" "CMakeFiles/game.dir/game.cpp.obj" "gcc" "CMakeFiles/game.dir/game.cpp.obj.d"
   "C:/Users/User/Project/arkada/main.cpp" "CMakeFiles/game.dir/main.cpp.obj" "gcc" "CMakeFiles/game.dir/main.cpp.obj.d"
   "C:/Users/User/Project/arkada/patron.cpp" "CMakeFiles/game.dir/patron.cpp.obj" "gcc" "CMakeFiles/game.dir/patron.cpp.obj.d"

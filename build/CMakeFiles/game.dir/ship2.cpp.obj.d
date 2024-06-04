@@ -677,4 +677,14 @@ CMakeFiles/game.dir/ship2.cpp.obj: C:\Users\User\Project\arkada\ship2.cpp \
  C:/Users/User/Project/wxWidgets/include/wx/mdi.h \
  C:/Users/User/Project/wxWidgets/include/wx/msw/mdi.h \
  C:\Users\User\Project\arkada\ship.h \
- C:\Users\User\Project\arkada\MyPanel.h
+ C:\Users\User\Project\arkada\Pattern.h \
+ C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/random \
+ C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
+ C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
+ C:/NMG/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.h \
+ C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
+ C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.tcc \
+ C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/numeric \
+ C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_numeric.h \
+ C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_numeric_defs.h

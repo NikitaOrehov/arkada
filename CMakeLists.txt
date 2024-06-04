@@ -14,6 +14,6 @@ include(${wxWidgets_USE_FILE})
 #include_directories(MyPanel)
 #add_subdirectory(MyPanel)
 
-add_executable(game main.cpp game.cpp MyPanel.cpp patron.cpp ship.cpp ship1.cpp ship2.cpp ship3.cpp)
+add_executable(game main.cpp game.cpp Pattern.cpp patron.cpp ship.cpp ship1.cpp ship2.cpp ship3.cpp)
 target_link_libraries(game ${wxWidgets_LIBRARIES})#game MyPanel
 target_include_directories(game PRIVATE ${wxWidgets_INCLUDE_DIRS})

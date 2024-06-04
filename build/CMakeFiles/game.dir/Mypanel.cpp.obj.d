@@ -1,5 +1,5 @@
-CMakeFiles/game.dir/Mypanel.cpp.obj: \
- C:\Users\User\Project\arkada\Mypanel.cpp \
+CMakeFiles/game.dir/MyPanel.cpp.obj: \
+ C:\Users\User\Project\arkada\MyPanel.cpp \
  C:\Users\User\Project\arkada\MyPanel.h \
  C:/Users/User/Project/wxWidgets/include/wx/wx.h \
  C:/Users/User/Project/wxWidgets/include/wx/defs.h \
@@ -676,4 +676,10 @@ CMakeFiles/game.dir/Mypanel.cpp.obj: \
  C:/Users/User/Project/wxWidgets/include/wx/filedlg.h \
  C:/Users/User/Project/wxWidgets/include/wx/msw/filedlg.h \
  C:/Users/User/Project/wxWidgets/include/wx/mdi.h \
- C:/Users/User/Project/wxWidgets/include/wx/msw/mdi.h
+ C:/Users/User/Project/wxWidgets/include/wx/msw/mdi.h \
+ C:\Users\User\Project\arkada\ship.h \
+ C:\Users\User\Project\arkada\Pattern.h \
+ C:\Users\User\Project\arkada\ship1.h \
+ C:\Users\User\Project\arkada\ship2.h \
+ C:\Users\User\Project\arkada\ship3.h \
+ C:\Users\User\Project\arkada\patron.h

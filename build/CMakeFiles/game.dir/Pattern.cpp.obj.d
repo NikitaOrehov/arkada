@@ -1,5 +1,6 @@
-CMakeFiles/game.dir/game.cpp.obj: C:\Users\User\Project\arkada\game.cpp \
- C:\Users\User\Project\arkada\game.h \
+CMakeFiles/game.dir/Pattern.cpp.obj: \
+ C:\Users\User\Project\arkada\Pattern.cpp \
+ C:\Users\User\Project\arkada\Pattern.h \
  C:/Users/User/Project/wxWidgets/include/wx/wx.h \
  C:/Users/User/Project/wxWidgets/include/wx/defs.h \
  C:/Users/User/Project/wxWidgets/include/wx/platform.h \
@@ -675,20 +676,4 @@ CMakeFiles/game.dir/game.cpp.obj: C:\Users\User\Project\arkada\game.cpp \
  C:/Users/User/Project/wxWidgets/include/wx/filedlg.h \
  C:/Users/User/Project/wxWidgets/include/wx/msw/filedlg.h \
  C:/Users/User/Project/wxWidgets/include/wx/mdi.h \
- C:/Users/User/Project/wxWidgets/include/wx/msw/mdi.h \
- C:\Users\User\Project\arkada\ship.h \
- C:\Users\User\Project\arkada\Pattern.h \
- C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/random \
- C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
- C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
- C:/NMG/mingw64/x86_64-w64-mingw32/include/stdint.h \
- C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.h \
- C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
- C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.tcc \
- C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/numeric \
- C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_numeric.h \
- C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_numeric_defs.h \
- C:\Users\User\Project\arkada\ship1.h \
- C:\Users\User\Project\arkada\ship2.h \
- C:\Users\User\Project\arkada\ship3.h \
- C:\Users\User\Project\arkada\patron.h
+ C:/Users/User/Project/wxWidgets/include/wx/msw/mdi.h

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/game.dir/Mypanel.cpp.obj"
-  "CMakeFiles/game.dir/Mypanel.cpp.obj.d"
+  "CMakeFiles/game.dir/Pattern.cpp.obj"
+  "CMakeFiles/game.dir/Pattern.cpp.obj.d"
   "CMakeFiles/game.dir/game.cpp.obj"
   "CMakeFiles/game.dir/game.cpp.obj.d"
   "CMakeFiles/game.dir/main.cpp.obj"
