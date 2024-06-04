@@ -1457,6 +1457,8 @@ CMakeFiles/game.dir/main.cpp.obj: C:/Users/User/Project/arkada/main.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/postypes.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/predefined_ops.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ptr_traits.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.tcc \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/range_access.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/refwrap.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
@@ -1472,6 +1474,7 @@ CMakeFiles/game.dir/main.cpp.obj: C:/Users/User/Project/arkada/main.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_numeric.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_pair.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_relops.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_tempbuf.h \
@@ -1494,6 +1497,7 @@ CMakeFiles/game.dir/main.cpp.obj: C:/Users/User/Project/arkada/main.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cmath \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/compare \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstddef \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdio \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdlib \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cwchar \
@@ -1517,10 +1521,13 @@ CMakeFiles/game.dir/main.cpp.obj: C:/Users/User/Project/arkada/main.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/limits \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/math.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/new \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/numeric \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ostream \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/execution_defs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_numeric_defs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/pstl_config.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/random \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdexcept \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdlib.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/streambuf \
@@ -1555,6 +1562,7 @@ CMakeFiles/game.dir/main.cpp.obj: C:/Users/User/Project/arkada/main.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cetintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cldemoteintrin.h \
@@ -1597,6 +1605,7 @@ CMakeFiles/game.dir/main.cpp.obj: C:/Users/User/Project/arkada/main.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/smmintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tbmintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tmmintrin.h \
@@ -1743,6 +1752,7 @@ CMakeFiles/game.dir/main.cpp.obj: C:/Users/User/Project/arkada/main.cpp \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/specstrings.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdarg.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/NMG/mingw64/x86_64-w64-mingw32/include/stdint.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stralign.h \
@@ -2814,6 +2824,8 @@ CMakeFiles/game.dir/ship.cpp.obj: C:/Users/User/Project/arkada/ship.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/postypes.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/predefined_ops.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ptr_traits.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.tcc \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/range_access.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/refwrap.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
@@ -2829,6 +2841,7 @@ CMakeFiles/game.dir/ship.cpp.obj: C:/Users/User/Project/arkada/ship.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_numeric.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_pair.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_relops.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_tempbuf.h \
@@ -2851,6 +2864,7 @@ CMakeFiles/game.dir/ship.cpp.obj: C:/Users/User/Project/arkada/ship.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cmath \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/compare \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstddef \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdio \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdlib \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cwchar \
@@ -2874,10 +2888,13 @@ CMakeFiles/game.dir/ship.cpp.obj: C:/Users/User/Project/arkada/ship.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/limits \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/math.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/new \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/numeric \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ostream \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/execution_defs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_numeric_defs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/pstl_config.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/random \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdexcept \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdlib.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/streambuf \
@@ -2912,6 +2929,7 @@ CMakeFiles/game.dir/ship.cpp.obj: C:/Users/User/Project/arkada/ship.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cetintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cldemoteintrin.h \
@@ -2954,6 +2972,7 @@ CMakeFiles/game.dir/ship.cpp.obj: C:/Users/User/Project/arkada/ship.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/smmintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tbmintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tmmintrin.h \
@@ -3100,6 +3119,7 @@ CMakeFiles/game.dir/ship.cpp.obj: C:/Users/User/Project/arkada/ship.cpp \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/specstrings.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdarg.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/NMG/mingw64/x86_64-w64-mingw32/include/stdint.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stralign.h \
@@ -3490,6 +3510,8 @@ CMakeFiles/game.dir/ship1.cpp.obj: C:/Users/User/Project/arkada/ship1.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/postypes.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/predefined_ops.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ptr_traits.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.tcc \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/range_access.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/refwrap.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
@@ -3505,6 +3527,7 @@ CMakeFiles/game.dir/ship1.cpp.obj: C:/Users/User/Project/arkada/ship1.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_numeric.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_pair.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_relops.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_tempbuf.h \
@@ -3527,6 +3550,7 @@ CMakeFiles/game.dir/ship1.cpp.obj: C:/Users/User/Project/arkada/ship1.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cmath \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/compare \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstddef \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdio \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdlib \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cwchar \
@@ -3550,10 +3574,13 @@ CMakeFiles/game.dir/ship1.cpp.obj: C:/Users/User/Project/arkada/ship1.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/limits \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/math.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/new \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/numeric \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ostream \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/execution_defs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_numeric_defs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/pstl_config.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/random \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdexcept \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdlib.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/streambuf \
@@ -3588,6 +3615,7 @@ CMakeFiles/game.dir/ship1.cpp.obj: C:/Users/User/Project/arkada/ship1.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cetintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cldemoteintrin.h \
@@ -3630,6 +3658,7 @@ CMakeFiles/game.dir/ship1.cpp.obj: C:/Users/User/Project/arkada/ship1.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/smmintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tbmintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tmmintrin.h \
@@ -3776,6 +3805,7 @@ CMakeFiles/game.dir/ship1.cpp.obj: C:/Users/User/Project/arkada/ship1.cpp \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/specstrings.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdarg.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/NMG/mingw64/x86_64-w64-mingw32/include/stdint.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stralign.h \
@@ -4167,6 +4197,8 @@ CMakeFiles/game.dir/ship2.cpp.obj: C:/Users/User/Project/arkada/ship2.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/postypes.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/predefined_ops.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ptr_traits.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.tcc \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/range_access.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/refwrap.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
@@ -4182,6 +4214,7 @@ CMakeFiles/game.dir/ship2.cpp.obj: C:/Users/User/Project/arkada/ship2.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_numeric.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_pair.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_relops.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_tempbuf.h \
@@ -4204,6 +4237,7 @@ CMakeFiles/game.dir/ship2.cpp.obj: C:/Users/User/Project/arkada/ship2.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cmath \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/compare \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstddef \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdio \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdlib \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cwchar \
@@ -4227,10 +4261,13 @@ CMakeFiles/game.dir/ship2.cpp.obj: C:/Users/User/Project/arkada/ship2.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/limits \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/math.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/new \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/numeric \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ostream \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/execution_defs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_numeric_defs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/pstl_config.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/random \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdexcept \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdlib.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/streambuf \
@@ -4265,6 +4302,7 @@ CMakeFiles/game.dir/ship2.cpp.obj: C:/Users/User/Project/arkada/ship2.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cetintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cldemoteintrin.h \
@@ -4307,6 +4345,7 @@ CMakeFiles/game.dir/ship2.cpp.obj: C:/Users/User/Project/arkada/ship2.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/smmintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tbmintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tmmintrin.h \
@@ -4453,6 +4492,7 @@ CMakeFiles/game.dir/ship2.cpp.obj: C:/Users/User/Project/arkada/ship2.cpp \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/specstrings.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdarg.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/NMG/mingw64/x86_64-w64-mingw32/include/stdint.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stralign.h \
@@ -4844,6 +4884,8 @@ CMakeFiles/game.dir/ship3.cpp.obj: C:/Users/User/Project/arkada/ship3.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/postypes.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/predefined_ops.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ptr_traits.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/random.tcc \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/range_access.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/refwrap.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
@@ -4859,6 +4901,7 @@ CMakeFiles/game.dir/ship3.cpp.obj: C:/Users/User/Project/arkada/ship3.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_numeric.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_pair.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_relops.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_tempbuf.h \
@@ -4881,6 +4924,7 @@ CMakeFiles/game.dir/ship3.cpp.obj: C:/Users/User/Project/arkada/ship3.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cmath \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/compare \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstddef \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdio \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdlib \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cwchar \
@@ -4904,10 +4948,13 @@ CMakeFiles/game.dir/ship3.cpp.obj: C:/Users/User/Project/arkada/ship3.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/limits \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/math.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/new \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/numeric \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ostream \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/execution_defs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_numeric_defs.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/pstl_config.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/random \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdexcept \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdlib.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/streambuf \
@@ -4942,6 +4989,7 @@ CMakeFiles/game.dir/ship3.cpp.obj: C:/Users/User/Project/arkada/ship3.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cetintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cldemoteintrin.h \
@@ -4984,6 +5032,7 @@ CMakeFiles/game.dir/ship3.cpp.obj: C:/Users/User/Project/arkada/ship3.cpp \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/smmintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+  C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tbmintrin.h \
   C:/NMG/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tmmintrin.h \
@@ -5130,6 +5179,7 @@ CMakeFiles/game.dir/ship3.cpp.obj: C:/Users/User/Project/arkada/ship3.cpp \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/specstrings.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdarg.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/NMG/mingw64/x86_64-w64-mingw32/include/stdint.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/NMG/mingw64/x86_64-w64-mingw32/include/stralign.h \

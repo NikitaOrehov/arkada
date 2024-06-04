@@ -8,13 +8,13 @@ public:
     Ship1(){
         hp = 1;
         wxInitAllImageHandlers();
-        image = new wxBitmap("C:/Users/User/Project/arkada/6666.jpg", wxBITMAP_TYPE_JPEG);
+        image = new wxBitmap("C:/Users/User/Project/arkada/image/ship1.png", wxBITMAP_TYPE_PNG);
     }
 
     void Reset() override {
         srand(time(nullptr));
         hp = 1;
-        int random = 60 * (rand() % 16);
-        this->ChangePosition(random, -30);
+        int random = 100 * (rand() % 10);
+        this->ChangePosition(random, -100);
     }
 };

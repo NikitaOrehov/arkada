@@ -20,6 +20,7 @@ public:
     void OnPaint(wxPaintEvent& event);
     void OnKeyDown(wxKeyEvent& event);
     wxBitmap background;
+    wxBitmap* image_player;
     Ship* player;
     int size = 3;
     int count = 1;

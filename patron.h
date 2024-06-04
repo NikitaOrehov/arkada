@@ -8,6 +8,6 @@ private:
 public:
     Patron(){
         wxInitAllImageHandlers();
-        image = new wxBitmap("C:/Users/User/Project/arkada/Patron1.jpg", wxBITMAP_TYPE_JPEG);
+        image = new wxBitmap("C:/Users/User/Project/arkada/image/Patron.jpg", wxBITMAP_TYPE_JPEG);
     }
 };
